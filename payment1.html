@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<head>
+
+  <form>
+    <br>
+    <input type="button" value=" Back to HOME" onclick="window.location.href='ecom.html'"/>
+
+  </form>
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+<div class="w3-content w3-section" style="max-width:1200px">
+  <img class="mySlides" src="4.jpg" style="width:100%">
+  <img class="mySlides" src="5.jpg" style="width:100%">
+  <img class="mySlides" src="6.jpg" style="width:100%">
+  <img class="mySlides" src="7.jpg" style="width:100%">
+  <img class="mySlides" src="8.jpg" style="width:100%">
+  <img class="mySlides" src="9.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+ <center>
+<style>
+div.center {
+    margin: 5px;
+    border:none;
+    float: none;
+    width: 60px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 20%;
+    height: 20%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<div class="gallery">
+  <a target="_blank" href="img_fjords.jpg">
+    <img src="pay.png" alt="Trolltunga Norway" width="150" height="100">
+  </a>
+  <div class="desc"><h1>Pay with Paytm</h1></div>
+</div>
+
+</center>
+
+
+  <br>
+  <br><br>
+
+
+  <center>
+<div class="container">
+    <div class="row-fluid">
+      <form class="form-horizontal">
+        <fieldset>
+          <div id="legend">
+            <legend class="">Payment</legend>
+          </div>
+     
+          <!-- Name -->
+          <div class="control-group">
+            <label class="control-label"  for="username">Card Holder's Name</label>
+            <div class="controls">
+              <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+     
+          <!-- Card Number -->
+          <div class="control-group">
+            <label class="control-label" for="email">Card Number</label>
+            <div class="controls">
+              <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+     
+          <!-- Expiry-->
+          <div class="control-group">
+            <label class="control-label" for="password">Card Expiry Date</label>
+            <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option></option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>1
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+              <select class="span2" name="expiry_year">
+                <option value="13">2013</option>
+                <option value="14">2014</option>
+                <option value="15">2015</option>
+                <option value="16">2016</option>
+                <option value="17">2017</option>
+                <option value="18">2018</option>
+                <option value="19">2019</option>
+                <option value="20">2020</option>
+                <option value="21">2021</option>
+                <option value="22">2022</option>
+                <option value="23">2023</option>
+              </select>
+            </div>
+          </div>
+     
+          <!-- CVV -->
+          <div class="control-group">
+            <label class="control-label"  for="password_confirm">Card CVV</label>
+            <div class="controls">
+              <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="span2">
+            </div>
+          </div>
+     
+          <!-- Save card -->
+          <div class="control-group">
+            <div class="controls">
+              <label class="checkbox" for="save_card">
+                <input type="checkbox" id="save_card" value="option1">
+                Save card on file?
+              </label>
+            </div>
+          </div>
+     
+          <!-- Submit -->
+          <div class="control-group">
+            <div class="controls">
+              <button class="btn btn-success">Pay Now</button>
+            </div>
+          </div>
+     
+        </fieldset>
+      </form>
+    </div>
+</div>
+
+
+<br>
+
+
+<center> 
+<div id="g">
+
+  <a href="contact.html"><h2>Contact Us</h2></a>
+  <p>+91-9876074234<br>
+  Copyright © 2018 Project LPU Infocomm Ltd. All rights reserved.<br>
+  Email: msah438@hotmail.com<br>
+JALANDHAR,PUNJAB,INDIA</p>
+</div>
+</center>
+</center>
+</head>
+</html>

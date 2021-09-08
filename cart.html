@@ -1,0 +1,93 @@
+
+  
+    
+    
+    
+    <!DOCTYPE html>
+<html>
+<head>
+
+  <br>
+<form>
+    <input type="button" value=" Back to HOME" onclick="window.location.href='ecom.html'"/>
+</form>
+
+
+  <center><h1 style="color: black;">Search for Products, Brands And More..</h1></center><br>
+
+  <center><h1 style="color: black;"><b>Your Cart</b></h1></center><br>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+<div class="w3-content w3-section" style="max-width:1200px">
+  <img class="mySlides" src="4.jpg" style="width:100%">
+  <img class="mySlides" src="5.jpg" style="width:100%">
+  <img class="mySlides" src="6.jpg" style="width:100%">
+  <img class="mySlides" src="7.jpg" style="width:100%">
+  <img class="mySlides" src="8.jpg" style="width:100%">
+  <img class="mySlides" src="9.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    <hr>
+    <center>
+  
+
+<figure class="snip1583">
+  <img src="f2.jpg" alt="sample68" />
+  <div class="icons"><a><i class="ion-android-cart"></i></a><a><i class="ion-android-star"></i></a><a><i class="ion-android-share-alt"></i></a></div>
+  <figcaption>
+    <h3>Wisteria Ravenclaw</h3>
+    <div class="price">Rs 2000</div>
+  </figcaption>
+</figure>
+<br>
+<figure class="snip1583 hover"><img src="g2.jpg" alt="sample77" />
+  <div class="icons"><a><i class="ion-android-cart"></i></a><a><i class="ion-android-star"></i></a><a><i class="ion-android-share-alt"></i></a></div>
+  <figcaption>
+    <h3>Ursula Gurnmeister</h3>
+    <div class="price">Rs 3000</div>
+  </figcaption>
+</figure>
+<br>
+<figure class="snip1583"><img src="c2.jpg" alt="sample71" />
+  <div class="icons"><a><i class="ion-android-cart"></i></a><a><i class="ion-android-star"></i></a><a><i class="ion-android-share-alt"></i></a></div>
+  <figcaption>
+    <h3>Ingredia Nutrisha</h3>
+    <div class="price">Rs 1000</div>
+  </figcaption>
+</figure>
+</center>
+
+<hr>
+<center> 
+<div id="g">
+
+  <a href="contact.html"><h2 style="color: black;font-size: 30px">Contact us</h2></a>
+  <p>+91-9876074234<br>
+  Copyright © 2018 Project LPU Infocomm Ltd. All rights reserved.<br>
+  Email: msah438@hotmail.com<br>
+JALANDHAR,PUNJAB,INDIA</p>
+</div>
+</center>
+</head>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<br>
+<form>
+    
+    <input type="button" value=" Back to HOME" onclick="window.location.href='ecom.html'"/>
+
+  </form>
+
+  
+  <style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 203px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+    margin-left: 3%;
+}
+
+li a {
+    display: block;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: green;
+    color: white;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body style="background-color:#e6e6e6">
+  
+  <center><h1 style="color: rgb(10);">Search for Products, Brands And More..</h1></center>
+  <br>
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+<div class="w3-content w3-section" style="max-width:1200px">
+  <img class="mySlides" src="4.jpg" style="width:100%">
+  <img class="mySlides" src="5.jpg" style="width:100%">
+  <img class="mySlides" src="6.jpg" style="width:100%">
+  <img class="mySlides" src="7.jpg" style="width:100%">
+  <img class="mySlides" src="8.jpg" style="width:100%">
+  <img class="mySlides" src="9.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<hr>
+
+
+  <center>
+<div class="gallery">
+  <a target="_blank" href="a1.jpg">
+    <img src="a1.jpg" alt="Trolltunga Norway" width="1000" height="800">
+  <center>  <p>Honor-9</p>
+              <p>Price-Rs20,000</p>
+            <input type="button" value="Add To Cart"></center>
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="b1.jpg" alt="Forest" width="1000" height="800">
+    <center> <p>Honor P-lite</p>
+              <p>Price-Rs24,000 </p>
+            <input type="button" value="Add To Cart"></center>
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="c1.jpg" alt="Northern Lights" width="1000" height="800">
+  <center>   <p>Nokia 3</p>
+              <p>Price-Rs30,000</p><input type="button" value="Add To Cart"></center>
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="d1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="e1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="f1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="g1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<br><hr><br>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="h1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="c1.jpg" alt="Northern Lights" width="1000" height="800">
+  <center>   <p>Nokia 3</p>
+              <p>Price-Rs30,000</p><input type="button" value="Add To Cart"></center>
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="d1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="e1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="c1.jpg" alt="Northern Lights" width="1000" height="800">
+  <center>   <p>Nokia 3</p>
+              <p>Price-Rs30,000</p><input type="button" value="Add To Cart"></center>
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="d1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="e1.jpg" alt="Mountains" width="1000" height="800">
+  <center><p>Samsung</p>
+              <p>Price- Rs28,000 </p>
+            <input type="button" value="Add To Cart"></center> 
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<center> 
+<div id="g">
+
+  <a href="contact.html"><h2>Contact Us</h2></a>
+  <p>+91-9876074234<br>
+  Copyright © 2018 Project LPU Infocomm Ltd. All rights reserved.<br>
+  Email: msah438@hotmail.com<br>
+JALANDHAR,PUNJAB,INDIA</p>
+</div>
+</center>
+
+</center>
+</body>
+</html>

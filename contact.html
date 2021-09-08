@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<br>
+
+
+
+
+<script>
+function myFunction() {
+
+    document.getElementById("demo").innerHTML = "THANKS FOR YOUR FEEDBACK, WE'll CONTACT YOU SOON";
+}
+</script>
+
+
+
+
+
+
+<form>
+    
+    <input type="button" value=" Back to HOME" onclick="window.location.href='ecom.html'"/>
+
+  </form>
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<center><h3>Your Feedback</h3></center>
+<center>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Nepal</option>
+      <option value="usa">USA</option>
+    </select><br>
+
+    <label for="subject">Subject</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <br>
+
+
+<p id="demo"><b>Submit Here-</b></p>
+
+<button type="button" onclick="myFunction()">SUBMIT</button>
+
+
+
+
+
+  </form>
+</div>
+</center>
+
+<center> 
+<div id="g">
+
+  <a href="contact.html"><h2 style="color: black;font-size: 30px">Contact us</h2></a>
+  <p>+91-9876074234<br>
+  Copyright © 2018 Project LPU Infocomm Ltd. All rights reserved.<br>
+  Email: msah438@hotmail.com<br>
+JALANDHAR,PUNJAB,INDIA</p>
+</div>
+
+
+
+</center>
+</body>
+</html>
